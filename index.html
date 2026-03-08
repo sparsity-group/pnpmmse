@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nonasymptotic Convergence Rates for PnP Methods With MMSE Denoisers</title>
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1" style="font-family: 'Castoro', serif;">Nonasymptotic Convergence Rates for Plug-and-Play Methods With MMSE Denoisers</h1>
+              <div class="is-size-5 mt-4">
+                <span><a href="mailto:hepritchard@ucsd.edu">Henry Pritchard</a> and <a href="https://rahul.sh" target="_blank">Rahul Parhi</a></span>
+              </div>
+              <div class="is-size-5 mt-2">
+                <span>University of California, San Diego</span>
+              </div>
+              <div class="mt-4">
+                <a href="https://arxiv.org/abs/2510.27211" target="_blank" class="button is-normal is-rounded is-dark mx-2">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
+                  <span>arXiv</span>
+                </a>
+                <a href="https://github.com/sparsity-group/pnp_mmse" target="_blank" class="button is-normal is-rounded is-dark mx-2">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>It is known that the minimum-mean-squared-error (MMSE) denoiser under Gaussian noise can be written as a proximal operator, which suffices for asymptotic convergence of plug-and-play (PnP) methods but does not reveal the structure of the induced regularizer or give convergence rates. We show that the MMSE denoiser corresponds to a regularizer that can be written explicitly as an upper Moreau envelope of the negative log-marginal density, which in turn implies that the regularizer is 1-weakly convex. Using this property, we derive (to the best of our knowledge) the first sublinear convergence guarantee for PnP proximal gradient descent with an MMSE denoiser. We validate the theory with a one-dimensional synthetic study that recovers the implicit regularizer. We also validate the theory with imaging experiments (deblurring and computed tomography), which exhibit the predicted sublinear behavior.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container has-text-centered">
+        <p>Built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>. Licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.</p>
+      </div>
+    </footer>
+  </body>
+</html>
