@@ -15,14 +15,21 @@ body {
 
 .overview-graphic {
   padding-top: 0;
+  padding-bottom: 3rem;
 }
 
-.overview-graphic-pdf {
+.overview-graphic-figure {
+  margin: 0;
+}
+
+.overview-graphic-figure a {
+  display: block;
+}
+
+.overview-graphic-image {
   display: block;
   width: 100%;
-  aspect-ratio: 4.88 / 1;
-  min-height: 180px;
-  border: 0;
+  height: auto;
 }
 
 .dnerf {
@@ -178,4 +185,3 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     div.csl-indent {
       margin-left: 2em;
     }
-
