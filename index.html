@@ -24,7 +24,10 @@
   <meta name="citation_title" content="Nonasymptotic Convergence Rates for Plug-and-Play Methods With MMSE Denoisers">
   <meta name="citation_author" content="Pritchard, Henry">
   <meta name="citation_author" content="Parhi, Rahul">
-  <meta name="citation_publication_date" content="2025">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_journal_title" content="IEEE Transactions on Computational Imaging">
+  <meta name="citation_volume" content="12">
+  <meta name="citation_doi" content="10.1109/TCI.2026.3707068">
   <meta name="citation_arxiv_id" content="2510.27211">
 
   <title>Nonasymptotic Convergence Rates for PnP Methods With MMSE Denoisers - Pritchard & Parhi</title>
@@ -98,16 +101,23 @@
           <div class="is-size-5 publication-authors">
             <span class="author-block">University of California, San Diego</span>
           </div>
+          <div class="is-size-5 publication-venue">
+            Published in:
+            <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6745852" target="_blank" rel="noopener noreferrer">
+              IEEE Transactions on Computational Imaging (Volume: 12)
+            </a>
+          </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2510.27211" target="_blank"
+                <a href="https://doi.org/10.1109/TCI.2026.3707068" target="_blank"
+                   rel="noopener noreferrer"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <i class="fas fa-external-link-alt"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>DOI</span>
                 </a>
               </span>
               <span class="link-block">
@@ -128,6 +138,22 @@
 </section>
 <!-- End hero -->
 
+<!-- Overview graphic -->
+<section class="section overview-graphic">
+  <div class="container is-max-desktop">
+    <object
+      class="overview-graphic-pdf"
+      data="MMSE_graphic_cropped%20(1).pdf#toolbar=0&amp;navpanes=0&amp;scrollbar=0"
+      type="application/pdf"
+      aria-label="Overview of the MMSE denoiser theory and experiments">
+      <p>
+        <a href="MMSE_graphic_cropped%20(1).pdf">View the MMSE overview graphic (PDF)</a>.
+      </p>
+    </object>
+  </div>
+</section>
+<!-- End overview graphic -->
+
 <!-- Abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -136,7 +162,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            It is known that the minimum-mean-squared-error (MMSE) denoiser under Gaussian noise can be written as a proximal operator, which suffices for asymptotic convergence of plug-and-play (PnP) methods but does not reveal the structure of the induced regularizer or give convergence rates. We show that the MMSE denoiser corresponds to a regularizer that can be written explicitly as an upper Moreau envelope of the negative log-marginal density, which in turn implies that the regularizer is 1-weakly convex. Using this property, we derive (to the best of our knowledge) the first sublinear convergence guarantee for PnP proximal gradient descent with an MMSE denoiser. We validate the theory with a one-dimensional synthetic study that recovers the implicit regularizer. We also validate the theory with imaging experiments (deblurring and computed tomography), which exhibit the predicted sublinear behavior.
+            It is known that the minimum-mean-squared-error (MMSE) denoiser under Gaussian noise can be written as a proximal operator, which suffices for asymptotic convergence of plug-and-play (PnP) methods but does not reveal the structure of the induced regularizer or give convergence rates. We show that the MMSE denoiser corresponds to a regularizer that can be written explicitly as an upper Moreau envelope of the negative log-marginal density, which in turn implies that the regularizer is 1-weakly convex on its domain. Using this property, we derive (to the best of our knowledge) the first sublinear convergence guarantee for PnP proximal gradient descent with an MMSE denoiser. We validate the theory with a one-dimensional synthetic study that recovers the implicit regularizer. We further validate the theory with imaging experiments (deblurring and computed tomography), which exhibit the predicted sublinear behavior.
           </p>
         </div>
       </div>
@@ -149,11 +175,15 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{pritchard2025pnp,
-  title={Nonasymptotic Convergence Rates for Plug-and-Play Methods With {MMSE} Denoisers},
-  author={Pritchard, Henry and Parhi, Rahul},
-  journal={arXiv preprint arXiv:2510.27211},
-  year={2025}
+    <pre><code>@article{pritchard2026nonasymptotic,
+  title = {Nonasymptotic Convergence Rates for Plug-and-Play Methods With {MMSE} Denoisers},
+  author = {Pritchard, Henry and Parhi, Rahul},
+  year = {2026},
+  journal = {IEEE Transactions on Computational Imaging},
+  volume = {12},
+  number = {},
+  pages = {1205--1214},
+  doi = {10.1109/TCI.2026.3707068},
 }</code></pre>
   </div>
 </section>

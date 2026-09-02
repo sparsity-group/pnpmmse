@@ -13,6 +13,18 @@ body {
     margin-bottom: 5px;
 }
 
+.overview-graphic {
+  padding-top: 0;
+}
+
+.overview-graphic-pdf {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4.88 / 1;
+  min-height: 180px;
+  border: 0;
+}
+
 .dnerf {
   font-variant: small-caps;
 }
@@ -59,6 +71,7 @@ body {
     color: #555;
     width: fit-content;
     font-weight: bold;
+    margin: 0.5rem auto 0;
 }
 
 .publication-awards {
@@ -165,6 +178,4 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     div.csl-indent {
       margin-left: 2em;
     }
-
-
 
